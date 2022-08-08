@@ -1,0 +1,6 @@
+spring:
+  kafka:
+    bootstrap-servers: ${KAFKA_ADDR:http://localhost:9092}
+  cloud:
+    function:
+      definition: producePerson|logPerson
